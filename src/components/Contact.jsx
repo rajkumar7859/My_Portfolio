@@ -57,7 +57,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-10 px-3 text-white">
 
-      <div className="text-center mt-8">
+      <div className="text-center mt-8 ">
       <ScrollAnimation  animateIn="fadeInUp" delay={0.1*1000}>
         <h3 className="text-4xl font-semibold">
           Contact <span className="text-cyan-600">Me</span>
@@ -68,7 +68,7 @@ const Contact = () => {
 
         <div
           className="mt-16 flex md:flex-row flex-col
-          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
+          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto shadow-[0px_5px_10px_2px_rgb(0_139_255/70%)]"
           >
           <form  onSubmit={formSubmit} className="flex flex-col flex-1 gap-5">
             <input onChange={handleChange} type="text" placeholder="Your Name" value={data.name} name="name" />

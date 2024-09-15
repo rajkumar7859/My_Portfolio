@@ -74,7 +74,7 @@ const BigProjects =()=>{
       <div>
          <ScrollAnimation animateIn="fadeInLeft" delay={0.2*1000} >
       <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative ">
-        <div className="lg:w-2/3 w-full">
+        <div className="lg:w-2/3 w-full ">
           <Swiper
             slidesPerview={1.2}
             spaceBetween={20}
@@ -94,8 +94,8 @@ const BigProjects =()=>{
           >
             {Big_projects.map((project_info, i) => (
               <SwiperSlide key={i}>
-                <div className="h-fit w-full p-4 bg-slate-700 rounded-xl ">
-                  <img src={project_info.img} alt="" className="rounded-lg hover:shadow-blue-500 hover:scale-105 duration-150" />
+                <div className="h-fit w-full p-4 bg-slate-700 rounded-xl  ">
+                  <img src={project_info.img} alt="" className="rounded-lg  hover:scale-105 duration-150" />
                   <h3 className="text-xl mt-4">{project_info.name}</h3>
                   <ProjectDescription 
                       description={project_info.description}

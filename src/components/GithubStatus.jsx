@@ -44,19 +44,19 @@ const  GithubStatus= () => {
              <ScrollAnimation animateIn="fadeInUp" delay={0.1*1000}>
             <div className="w-full grid grid-cols-1  md:grid-cols-2   md:grid-rows-2 gap-8 text-center justify-center ">
               <img
-                className="w-[90%] mx-auto hover:shadow-bule-500 hover:scale-105 duration-150"
+                className="w-[90%] rounded shadow-[0px_2px_7px_2px_rgb(0_139_255/70%)] mx-auto hover:scale-105 duration-150 hover:shadow-[0px_5px_10px_2px_rgb(0_139_255/70%)]"
                 title="🔥 Get streak stats for your profile at git.io/streak-stats"
                 alt="rajkumar streak"
                 src="https://streak-stats.demolab.com?user=rajkumar7859&theme=nightowl&border_radius=4.8&date_format=j%20M%5B%20Y%5D"
                 />
 
               <img
-                className="w-[90%] mx-auto hover:scale-105 duration-150"
+                className="w-[90%] rounded shadow-[0px_2px_7px_2px_rgb(0_139_255/70%)] mx-auto hover:scale-105 duration-150 hover:shadow-[0px_5px_10px_2px_rgb(0_139_255/70%)]"
                 alt="rajkumar Github Stats"
                 src="https://github-readme-stats.vercel.app/api?username=rajkumar7859&show_icons=true&count_private=true&theme=nightowl&border_radius=4.8&date_format=j%20M%5B%20Y%5D"
                 />
               <img
-                className="md:w-[40%] w-[90%] mx-auto md:col-span-2 hover:scale-105 duration-150"
+                className="md:w-[40%] rounded shadow-[0px_2px_7px_2px_rgb(0_139_255/70%)] w-[90%] mx-auto md:col-span-2 hover:scale-105 duration-150 hover:shadow-[0px_5px_10px_2px_rgb(0_139_255/70%)]"
                 alt="rajkumar's Top Languages"
                 src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajkumar7859&langs_count=8&count_private=true&layout=compact&theme=nightowl&border_radius=4.8&date_format=j%20M%5B%20Y%5D"
                 />
@@ -65,7 +65,7 @@ const  GithubStatus= () => {
             <br />
             <ScrollAnimation animateIn="fadeInUp" delay={0.3*1000} >
 
-            <div className=" border-2 flex-col justify-center items-center text-center sm:block  border-white rounded-md p-4 bg-[#112038]">
+            <div className=" border-2 flex-col justify-center items-center text-center sm:block  border-white rounded-md p-4 bg-[#112038] shadow-[0px_5px_10px_2px_rgb(0_139_255/70%)]">
               <div className="flex justify-between">
               <BiTargetLock size={20} className='animate-spin-slow'></BiTargetLock>
                 <h2 className="capitalize font-bold text-2xl text-purple-400 ">My contributions In GitHub </h2>

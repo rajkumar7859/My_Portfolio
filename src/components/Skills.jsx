@@ -84,7 +84,7 @@ const Skills = () => {
           {skills?.map((skill, i) => (
             <div
               key={i}
-              className="border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl group-hover:bg-gray-900 shadow-lg shadow-blue-500/50"
+              className="border-2 group border-[rgb(4_229_255)] relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl shadow-lg shadow-blue-500/50  hover:translate-y-[-5px] hover:shadow-[0px_10px_20px_2px_rgb(0_139_255/70%)]"
             >
               <div
                 style={{
@@ -92,7 +92,7 @@ const Skills = () => {
                 }}
                 className="w-32 h-32 flex items-center justify-center rounded-full"
               >
-                <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600">
+                <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-[rgb(4_196_253)]">
                  {skill.logo}
                 </div>
               </div>

@@ -23,7 +23,7 @@ const Project = () => {
           <Link
             to="/bigprojects"
             className={`text-blue-500 ${
-              location.pathname === "/bigprojects" || location.pathname === "/" ? "text-yellow-500" : ""
+              location.pathname === "/bigprojects" || location.pathname === "/" ? "text-white" : ""
             }`}
           >
             Big Projects
@@ -33,7 +33,7 @@ const Project = () => {
           <Link
             to="/miniprojects"
             className={`text-blue-500 ${
-              location.pathname === "/miniprojects" ? "text-yellow-500" : ""
+              location.pathname === "/miniprojects" ? "text-white" : ""
             }`}
           >
             Mini Projects

@@ -188,12 +188,11 @@ const MiniProjects = () => {
             modules={[Pagination, Autoplay]}
           >
             {mini_projects.map((project_info, i) => (
-              <SwiperSlide key={i}  >
-                <ScrollAnimation animateIn="zoomIn" delay={0.2*1000} >
+              <SwiperSlide key={i}   >
+                <ScrollAnimation animateIn="zoomIn" >
                 <div className="h-fit w-full p-4 bg-slate-700 rounded-xl " >
                   <img src={project_info.img} alt="" className="rounded-lg hover:shadow-blue-500 hover:scale-105 duration-150" />
                   <h3 className="text-xl mt-4">{project_info.name}</h3>
-                  {/* <p className="text-sm line-clamp-4 " >{project_info.description}</p> */}
                   <ProjectDescription description={project_info.description} />
                   <div className="flex gap-3 justify-between my-4">
                     <a 
