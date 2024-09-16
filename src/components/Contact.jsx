@@ -68,7 +68,7 @@ const Contact = () => {
 
         <div
           className="mt-16 flex md:flex-row flex-col
-          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto shadow-[0px_5px_10px_2px_rgb(0_139_255/70%)]"
+          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg border-2 group border-[rgb(4_229_255)] mx-auto shadow-[0px_5px_10px_2px_rgb(0_139_255/70%)]"
           >
           <form  onSubmit={formSubmit} className="flex flex-col flex-1 gap-5">
             <input onChange={handleChange} type="text" placeholder="Your Name" value={data.name} name="name" />

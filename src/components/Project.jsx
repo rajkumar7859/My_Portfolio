@@ -18,7 +18,7 @@ const Project = () => {
         </div>
       </ScrollAnimation>
       <br />
-      <div className="lg:flex border-2 md:flex sm:block border-none justify-center gap-10 text-[25px] font-math mb-4 ">
+      <div className="lg:flex border-2 md:flex sm:block border-none justify-center gap-10 text-[25px] font-math mb-4 text-center ">
         <div>
           <Link
             to="/bigprojects"

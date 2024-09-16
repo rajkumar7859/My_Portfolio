@@ -5,6 +5,7 @@ const About = () => {
   const info = [
     { text: "DSA problem", count: "500" },
     { text: "Completed Projects", count: "04" },
+    { text: "Mini projects", count: "15" },
     { text: "Coding hours", count: "1200" },
   ];
   return (
@@ -47,7 +48,7 @@ technology solutions.
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2*1000}>
 
-              <div className="flex mt-10 items-center gap-7">
+              <div className="inline-grid grid-cols-3 gap-4 mt-10 lg:-ml-32 md:-ml-60 items-center">
                 {info.map((content) => (
                   <div key={content.text}>
                     <h3 className="md:text-4xl text-2xl font-semibold text-white">

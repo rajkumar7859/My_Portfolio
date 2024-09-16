@@ -84,7 +84,7 @@ const  GithubStatus= () => {
               </GitHubCalendar>
               <div className="flex justify-between">
               <BiTargetLock size={20} className='animate-spin-slow'></BiTargetLock>
-                <h2 className="capitalize font-bold text-cyan-400">GitHub Contribution Calendar</h2>
+                <h2 className="uppercase font-bold text-cyan-400">GitHub Contribution Calendar</h2>
                 <BiTargetLock size={20} className='animate-reverse-spin'></BiTargetLock>
               </div>
             </div>
