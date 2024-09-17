@@ -56,7 +56,8 @@ const Hero = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1DOW-990HrV3-6if9hzDT7M5aNI8diMdf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1DOW-990HrV3-6if9hzDT7M5aNI8diMdf"
+              download
             >
               <button className="btn-primary mt-8">Download CV</button>
             </a>
