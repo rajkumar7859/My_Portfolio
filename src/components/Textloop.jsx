@@ -1,5 +1,5 @@
 import React from 'react';
-import Typed from 'react-typed'; // Correct import statement
+import Typed from 'react-typed'; 
 
 const Textloop = () => {
   return (
@@ -10,9 +10,11 @@ const Textloop = () => {
           'MERN Stack Developer 💻',
           'Frontend Developer 💻'
         ]}
+        style={{ textShadow: '0px 5px 10px rgba(0, 139, 255, 0.7)' }}
         typeSpeed={40}
         backSpeed={50}
         loop
+
       />
     </div>
   );

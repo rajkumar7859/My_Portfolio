@@ -74,7 +74,7 @@ const Contact = () => {
             <input onChange={handleChange} type="text" placeholder="Your Name" value={data.name} name="name" />
             <input onChange={handleChange} type="Email" placeholder="Your Email Address" value={data.email} name="email" />
             <textarea onChange={handleChange} placeholder="Your Message" name="message" rows={10} value={data.message} ></textarea>
-            <button className="btn-primary w-fit">Send Message</button>
+            <button className="btn-primary w-fit hover:translate-y-[-5px] hover:shadow-[0px_5px_10px_2px_rgb(0_139_255/70%)]">Send Message</button>
           </form>
           <div className="flex flex-col  gap-7 ">
             {contact_info.map((contact, i) => (

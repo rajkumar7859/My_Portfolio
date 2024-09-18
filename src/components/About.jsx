@@ -65,7 +65,7 @@ technology solutions.
               <ScrollAnimation animateIn="fadeInLeft" delay={0.3*1000} >
               <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1DOW-990HrV3-6if9hzDT7M5aNI8diMdf" download >
               
-                <button className="btn-primary">Download CV</button>
+                <button className="btn-primary hover:translate-y-[-5px] hover:shadow-[0px_5px_10px_2px_rgb(0_139_255/70%)]">Download CV</button>
               </a>
               </ScrollAnimation>
             </div>
