@@ -18,7 +18,7 @@ const BigProjects =()=>{
           img: Tata_1mg,
           name: "Tata 1mg ",
           description:"It’s a indivisible project where I have show my creativity along with frontend and backend integration its Fully Responsive booking web application that allows you to book medicine and health related thing. In this website you can filter, sort hotels by price, rating and reviews.",
-          github_link: "https://github.com/Sridhar-C-25",
+          github_link: "https://github.com/rajkumar7859/Tata1mg_clone/tree/main/tata_1mg_clone_project",
           live_link: "https://tata-1mg-clone-project.vercel.app/",
         },
         {
